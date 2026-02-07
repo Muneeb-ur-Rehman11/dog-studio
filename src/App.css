@@ -78,7 +78,7 @@ section{
   min-height: 80vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 0 clamp(120px, 5vw, 0px);
   /* gap: 60px; */
 }
@@ -86,6 +86,7 @@ section{
 /* LEFT TEXT */
 #section-1 .left {
   width: 50%;
+  /* min-height: 80vh ; */
   display: flex;
   justify-content: flex-end;
 }
@@ -101,6 +102,7 @@ section{
 /* RIGHT TEXT */
 #section-1 .right {
   width: 50%;
+  height: 70vh;
   max-width: 480px;
   display: flex;
   justify-content: flex-end;
